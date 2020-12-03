@@ -6,8 +6,6 @@ name: Build then Push to Registry
 on:
   push:
     branches: [master]
-  release:
-    types: [published]
 
 # A workflow run is made up of one or more jobs that can run sequentially (with needs) or in parallel
 jobs:
