@@ -4,6 +4,8 @@ name: Build then Push to Registry
 # Github release will create new git tag
 # but git push origin --tag will not trigger this action
 on:
+  push:
+    branches: [ master ]
   release:
     types: [published]
 
